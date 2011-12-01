@@ -89,8 +89,8 @@ function asktico_diagrams_content_default_fields() {
       'insert_default' => 'auto',
       'insert_class' => '',
       'insert_width' => '',
-      'label' => 'Diagram',
-      'weight' => '-3',
+      'label' => 'Upload Diagram',
+      'weight' => 0,
       'description' => 'Upload or reference a diagram.',
       'type' => 'imagefield_widget',
       'module' => 'imagefield',
@@ -99,7 +99,7 @@ function asktico_diagrams_content_default_fields() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Diagram');
+  t('Upload Diagram');
 
   return $fields;
 }
