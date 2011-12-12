@@ -20,5 +20,6 @@ features[variable][] = "comment_subject_field_diagram"
 features[variable][] = "content_extra_weights_diagram"
 features[variable][] = "language_content_type_diagram"
 features[variable][] = "node_options_diagram"
+projects[asktico_diagrams][location] = http://doemo.lib.berkeley.edu/drupalfeatures/fserver
 name = "Asktico Diagrams"
 package = "Features"
